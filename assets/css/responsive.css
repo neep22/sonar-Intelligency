@@ -1,0 +1,215 @@
+
+
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .content {
+        width: 75%;
+    }
+    .section-title p {
+        margin: 25px auto 0;
+    }
+    .card-title {
+        font-size: 29px !important;
+   
+    }
+    .about-info p {
+        font-size: 20px;
+    }
+    .countup {
+        font-size: 75px;
+    }
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .navbar-brand.header-logo {
+        width: 88%;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .content {
+        width: 100%;
+    }
+    .section-title p {
+        margin: 25px auto 0;
+    }
+    .last-card {
+        margin-top: 35px;
+    }
+    .promo-info {
+        text-align: center;
+    }
+    .promo-info p {
+        max-width: 100%;
+    }
+    .promo-btn {
+        justify-content: center;
+    }
+    .promo-btnbg {
+        margin: 0 15px;
+    }
+    .about-info p {
+        font-size: 18px;
+    }
+    .sets-box i {
+        margin-top: -79px;
+    }
+    .last-box{
+        margin-bottom: 80px;
+    }
+    .countup {
+        font-size: 55px;
+    }
+    .contact-social {
+        width: 100%;
+    }
+    .card-text:last-child {
+        font-size: 19px;
+    }
+    .nav-link {
+        font-size: 18px;
+        border-bottom: 1px dashed;
+        padding-top: 33px;
+    }
+      .navbar-collapse {
+        margin-bottom: 48px;
+    }
+}
+
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .navbar {
+        padding: 18px 0 !important;
+    }
+    .navbar-brand.header-logo {
+        width: 65%;
+    }
+    .navbar-toggler {
+        font-size: 16px
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .header-logo img {
+        max-width: 100%;
+    }
+    .section-title img {
+        max-width: 100%;
+    }
+    .section-title p {
+        font-size: 15px;
+        line-height: 29px;
+        max-width: 100%;
+        margin: 20px auto 0;
+        text-align: justify;
+    }
+    .sets-section {
+        padding-top: 40px;
+    }
+    .content {
+        width: 100%;
+    }
+    .content p {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .last-card, .sec-card {
+        margin-top: 35px;
+    }
+    .sets-box i {
+        margin-top: -79px;
+    }
+    .last-box{
+        margin-bottom: 80px;
+    }
+    .promo-info h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .promo-info p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .promo-btn {
+        margin: 40px 0 0;
+        flex-direction: column;
+    }
+    .promo-btnbg {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content h1 {
+        font-size: 46px;
+    }
+    .about h2 {
+        font-size: 45px;
+    }
+    .about-info p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .list li {
+        font-size: 20px;
+        line-height: 42px;
+    }
+    .countup {
+        font-size: 60px;
+    }
+    .contact-main{
+        flex-direction: column;
+    }
+    .contact span {
+        font-size: 26px;
+    }
+    .contact h3 {
+        font-size: 43px;
+        line-height: 52px;
+        margin-bottom: 10px;
+    }
+    .contact-social {
+        width: 100%;
+        margin-top: 75px;
+    }
+    .animation {
+        max-width: 75%;
+        margin: 50px 45px 0;
+    }
+    .nav-link {
+            font-size: 18px;
+            border-bottom: 1px dashed;
+            padding-top: 23px;
+    }
+    .contact-social h4 {
+        padding-bottom: 15px;
+    }
+    .count {
+        width: 50%;
+    }
+}
